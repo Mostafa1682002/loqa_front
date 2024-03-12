@@ -1,0 +1,241 @@
+.salla-theme_4 .site-header .header-wrapper .sub-nav {
+  flex: 1 0 0;
+}
+@media only screen and (max-width: 1024px) {
+  .salla-theme_4 .site-header .header-wrapper .sub-nav {
+    margin: 0 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .salla-theme_4 .site-header .header-wrapper .header-row.left {
+    top: 50%;
+    transform: translateY(-67%);
+  }
+}
+.salla-theme_4 .site-header.sticky {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+@media only screen and (min-width: 992px) {
+  .salla-theme_4 .site-header.sticky .container.py-3 {
+    padding: 0.3rem 0 !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .salla-theme_4 .site-header.sticky .header-row.left {
+    transform: translateY(-55%);
+  }
+}
+.salla-theme_4 .site-header .site-header__cart .badge {
+  left: -4px;
+  right: unset;
+}
+.salla-theme_4 .site-header .container.py-3 {
+  padding-top: 10px !important;
+}
+@media only screen and (max-width: 767px) {
+  .salla-theme_4 .site-header .logo-wrapper .logo {
+    margin-right: 0;
+  }
+  .salla-theme_4 .site-header .logo-wrapper .logo img {
+    height: auto;
+    max-height: 45px;
+    max-width: 210px;
+    width: auto;
+  }
+}
+.salla-theme_4 .section-header--clear .section--title {
+  margin-right: 0 !important;
+}
+.salla-theme_4 .section-header--clear .section--title span {
+  background: transparent !important;
+  color: var(--color-title);
+  padding: 0;
+}
+.salla-theme_4 .product {
+  margin-bottom: 1.5rem;
+  padding-bottom: 0;
+}
+.salla-theme_4 .product-footer .product-add {
+  border-radius: 0;
+}
+.salla-theme_4 .product-footer .product-add:hover {
+  background-color: #f8f8f8 !important;
+}
+.salla-theme_4 .footer-header .footer-payment {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.salla-theme_4 .footer-header .footer-payment p {
+  flex: 0 0 30%;
+}
+.salla-theme_4 .footer-header .footer-payment .icons {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+@media only screen and (max-width: 992px) {
+  .salla-theme_4 .footer-header .footer-payment {
+    flex-direction: column;
+  }
+  .salla-theme_4 .footer-header .footer-payment p {
+    margin-bottom: 20px;
+  }
+}
+.salla-theme_4 .footer-header .icons .store-certificate {
+  align-items: center;
+  border-left: 1px solid #eee;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.salla-theme_4 .footer-header .icons .store-certificate b {
+  color: #444;
+  display: block;
+  font-size: 13px;
+  transform: translateY(-4px);
+}
+.salla-theme_4 .footer-header .icons .store-certificate img {
+  max-height: 20px;
+  max-width: 40px;
+}
+@media only screen and (max-width: 992px) {
+  .salla-theme_4 .footer-header .icons .store-certificate {
+    border-left: 1px solid #eee;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .salla-theme_4 .footer-header .icons .store-certificate {
+    border: none;
+    margin: 0;
+    padding: 0 0 10px;
+  }
+  .salla-theme_4 .footer-header .icons {
+    text-align: right;
+  }
+}
+.salla-theme_4 .force-login__header {
+  border: none;
+}
+.salla-theme_4 .product-details__price {
+  font-size: 24px;
+}
+.salla-theme_4 .product-details__price .product-price.price-before {
+  color: #999;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(-14px);
+}
+.salla-theme_4 .feature-item__content .feature-item__icon {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+.salla-theme_4 .feature-item__content .feature-item__icon i[class^="sicon-"] {
+  font-size: 35px;
+  line-height: 1 !important;
+  margin: 0 0 0.5rem;
+}
+.salla-theme_4 .feature-item__content p {
+  padding: 1rem;
+}
+.salla-theme_4 .product-details__price {
+  position: relative;
+}
+.salla-theme_4 .product-details__price .product-price {
+  font-family: DINNextLTArabic-Regular;
+  padding: 0;
+}
+.salla-theme_4 .product-details__price .price-before {
+  color: #999;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 5px;
+  padding: 0;
+  transform: translateY(-3px);
+}
+.salla-theme_4 .product-details__price .tax-label {
+  margin-top: 5px;
+}
+.salla-theme_4 .product-details__price strong {
+  font-weight: 700;
+}
+.salla-theme_4 .force-login__header {
+  background: var(--main-text-color);
+}
+@media only screen and (max-width: 1024px) {
+  .salla-theme_4 .site-header {
+    z-index: 5000;
+  }
+}
+.salla-theme_4 .site-header #cl_switcher_wrapper {
+  float: right;
+}
+.salla-theme_4 .site-header #cl_switcher_wrapper #cl_switcher #cl_toggle {
+  border-color: #fff;
+  color: #fff;
+}
+.salla-theme_4 .site-header #cl_switcher_wrapper #cl_switcher #cl_toggle:hover,
+.salla-theme_4
+  .site-header
+  #cl_switcher_wrapper
+  #cl_switcher.visible
+  #cl_toggle {
+  background-color: #fff !important;
+  color: var(--color-main);
+}
+@media only screen and (min-width: 992px) {
+  .salla-theme_4 .site-header .main-menu > li:hover > a {
+    color: var(--color-text-reverse);
+  }
+}
+.salla-theme_4 footer ul.footer-links {
+  -moz-columns: unset;
+  columns: unset;
+}
+.salla-theme_4 footer .icons .store-credentials {
+  border-color: #eee;
+}
+@media only screen and (max-width: 576px) {
+  .salla-theme_4 footer .icons {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .salla-theme_4.cl-support .sub-nav .sub-nav-content .main-menu {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+.salla-theme_4 .shipping-bar .free-shipping--large {
+  padding: 0 13px 0 10px;
+}
+.salla-theme_4 .testimonials-item {
+  margin: 0 10px !important;
+}
+.salla-theme_4 .product-box .product-footer .product-price .price-after,
+.salla-theme_4 .product-box .product-footer .product-price .price-before {
+  padding: 0.5rem 5px;
+}
+.salla-theme_4 .product-box .product-footer .not-available {
+  margin-top: 13px;
+}
